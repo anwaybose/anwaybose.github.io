@@ -1,0 +1,22 @@
+body {
+font-family: Arial, sans-serif;
+background: #f4f4f4;
+margin: 0;
+}
+
+.container {
+width: 900px;
+margin: auto;
+background: white;
+padding: 40px;
+}
+
+h1 {
+margin-bottom: 0;
+}
+
+h2 {
+margin-top: 40px;
+border-bottom: 2px solid #eee;
+padding-bottom: 5px;
+}
