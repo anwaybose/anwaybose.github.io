@@ -2,39 +2,62 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Anway Bose | Portfolio</title>
+<title>Anway Bose</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="container">
-
+<header>
 <h1 id="name"></h1>
 <p id="headline"></p>
-<p id="location"></p>
 
-<h2>Summary</h2>
+<div class="links">
+<a id="linkedin" target="_blank">LinkedIn</a>
+<a id="scholar" target="_blank">Google Scholar</a>
+<a id="github" target="_blank">GitHub</a>
+</div>
+</header>
+
+<section>
+<h2>Research Summary</h2>
 <p id="summary"></p>
+</section>
 
+<section>
 <h2>Research Interests</h2>
 <ul id="research"></ul>
+</section>
 
-<h2>Core Competencies</h2>
-<ul id="competencies"></ul>
-
+<section>
 <h2>Experience</h2>
 <div id="experience"></div>
+</section>
 
+<section>
 <h2>Publications</h2>
-<div id="publications"></div>
 
-<h2>Education</h2>
-<div id="education"></div>
-
+<div class="filters">
+<button onclick="filterPubs('all')">All</button>
+<button onclick="filterPubs('journal')">Journal</button>
+<button onclick="filterPubs('conference')">Conference</button>
 </div>
 
+<div id="publications"></div>
+
+</section>
+
+<section>
+<h2>Education</h2>
+<div id="education"></div>
+</section>
+
+<footer>
+<p>© Anway Bose</p>
+</footer>
+
 <script src="script.js"></script>
+<script src="scholar.js"></script>
 
 </body>
 </html>
