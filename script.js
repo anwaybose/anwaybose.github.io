@@ -1,82 +1,64 @@
+let publicationsData = [];
+
 fetch("portfolio.json")
-.then(response => response.json())
-.then(data => {
+.then(r=>r.json())
+.then(data=>{
 
-document.getElementById("name").innerText = data.personal_info.name;
-document.getElementById("headline").innerText = data.personal_info.headline;
-document.getElementById("location").innerText = data.personal_info.location;
+/* basic info */
 
-document.getElementById("summary").innerText = data.summary;
+document.getElementById("name").innerText=data.personal_info.name;
 
-/* Research Interests */
-const researchList = document.getElementById("research");
-data.research_interests.forEach(item => {
-    let li = document.createElement("li");
-    li.textContent = item;
-    researchList.appendChild(li);
+document.getElementById("headline").innerText=data.personal_info.headline;
+
+document.getElementById("summary").innerText=data.summary;
+
+/* links placeholders */
+
+document.getElementById("linkedin").href="ADD_LINKEDIN_URL";
+document.getElementById("scholar").href="ADD_GOOGLE_SCHOLAR_URL";
+
+document.getElementById("github").href=data.personal_info.social_links.github;
+
+/* research */
+
+let rlist=document.getElementById("research");
+
+data.research_interests.forEach(r=>{
+let li=document.createElement("li");
+li.innerText=r;
+rlist.appendChild(li);
 });
 
-/* Competencies */
-const compList = document.getElementById("competencies");
-data.core_competencies.forEach(item => {
-    let li = document.createElement("li");
-    li.textContent = item;
-    compList.appendChild(li);
-});
+/* experience */
 
-/* Experience */
-const expDiv = document.getElementById("experience");
-data.experience.forEach(job => {
+let exp=document.getElementById("experience");
 
-let div = document.createElement("div");
+data.experience.forEach(e=>{
+let div=document.createElement("div");
 
-div.innerHTML = `
-<h3>${job.role} — ${job.organization}</h3>
-<p><i>${job.duration}</i></p>
-<p>${job.description || ""}</p>
+div.innerHTML=`
+<h3>${e.role}</h3>
+<b>${e.organization}</b>
+<p>${e.duration}</p>
+<p>${e.description||""}</p>
 <ul>
-${job.highlights.map(h => `<li>${h}</li>`).join("")}
+${(e.highlights||[]).map(h=>`<li>${h}</li>`).join("")}
 </ul>
 `;
 
-expDiv.appendChild(div);
-
+exp.appendChild(div);
 });
 
-/* Publications */
+/* publications */
 
-const pubDiv = document.getElementById("publications");
+publicationsData=data.publications;
+renderPublications("all");
 
-data.publications.forEach(pub => {
+/* education */
 
-let p = document.createElement("p");
+let edu=document.getElementById("education");
 
-p.innerHTML = `
-<b>${pub.title}</b><br>
-${pub.authors}<br>
-${pub.venue} (${pub.year})
-`;
+data.education.forEach(ed=>{
 
-pubDiv.appendChild(p);
-
-});
-
-/* Education */
-
-const eduDiv = document.getElementById("education");
-
-data.education.forEach(e => {
-
-let p = document.createElement("p");
-
-p.innerHTML = `
-<b>${e.degree}</b><br>
-${e.institution}<br>
-${e.duration}
-`;
-
-eduDiv.appendChild(p);
-
-});
-
-});
+let d=document.createElement("div");
+}
