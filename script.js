@@ -8,6 +8,12 @@ fetch("portfolio.json")
 
 document.getElementById("name").innerText=data.personal_info.name;
 
+if(data.personal_info.photo) {
+  let img = document.getElementById("profile-photo");
+  img.src = data.personal_info.photo;
+  img.style.display = "block";
+}
+
 document.getElementById("headline").innerText=data.personal_info.headline;
 
 document.getElementById("summary").innerText=data.summary;
