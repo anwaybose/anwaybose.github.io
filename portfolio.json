@@ -1,7 +1,7 @@
 {
   "personal_info": {
     "name": "Anway Bose",
-    "photo": "profile.svg",
+    "photo": "profile.jpeg",
     "headline": "Ph.D. Candidate in Electrical and Computer Engineering | Quantitative Researcher",
     "location": "Philadelphia, PA, USA",
     "email_primary": "anway.bose@temple.edu",
@@ -13,7 +13,7 @@
     }
   },
   "summary": "Quantitative Researcher and Ph.D. Candidate in Electrical and Computer Engineering at Temple University with a strong foundation in probability theory, statistical modeling, and optimization. Extensive experience designing mathematically rigorous models for inference, forecasting, and decision-making in complex systems. Proven ability to work with large datasets, develop scalable statistical pipelines in Python, and translate theoretical frameworks into deployable computational models. Research focuses on federated optimization methods, multi-agent robotics, distributed control, and secure test beds for Distributed AI.",
-  "research_interests":[
+  "research_interests": [
     "Heterogeneous Multi-Agent Control",
     "Adversarially Robust Distributed Control",
     "Reinforcement Learning",
@@ -23,7 +23,7 @@
     "Electric Power Grid Applications",
     "Embodied AI"
   ],
-  "core_competencies":[
+  "core_competencies": [
     "Probability Theory & Statistical Inference",
     "Bayesian Modeling & Forecast Calibration",
     "Optimization (Convex & Constrained)",
@@ -35,7 +35,7 @@
     "Experimental Design & Hypothesis Testing"
   ],
   "technical_skills": {
-    "programming":[
+    "programming": [
       "Python (NumPy, Pandas, SciPy, PyTorch)",
       "C++",
       "MATLAB",
@@ -45,7 +45,7 @@
       "Linux",
       "Embedded C"
     ],
-    "optimization_and_control":[
+    "optimization_and_control": [
       "Nonlinear Control",
       "Model Predictive Control (MPC)",
       "Lyapunov Stability Analysis",
@@ -53,7 +53,7 @@
       "Convex and Nonconvex Optimization",
       "Gradient-Based Methods"
     ],
-    "machine_learning":[
+    "machine_learning": [
       "PyTorch",
       "Reinforcement Learning",
       "Federated Learning",
@@ -64,26 +64,26 @@
       "Statistical Learning Theory",
       "Secure and Privacy-Preserving ML"
     ],
-    "statistical_tools":[
+    "statistical_tools": [
       "Monte Carlo Simulation",
       "Maximum Likelihood Estimation",
       "Regression Models"
     ],
-    "cyber_physical_systems":[
+    "cyber_physical_systems": [
       "Networked Dynamical Systems",
       "Multi-Agent Coordination",
       "Embedded Control Implementation",
       "Real-Time Systems"
     ]
   },
-  "experience":[
+  "experience": [
     {
       "role": "Graduate Research Assistant",
       "organization": "Temple University, Computer Fusion Lab",
       "location": "Philadelphia, PA, USA",
       "duration": "June 2022 - Present",
       "description": "Working on Embodied AI & Multi-Agent Spatial Reasoning, Privacy-Preserving Distributed Optimization, and Reinforcement Learning-Based Control.",
-      "highlights":[
+      "highlights": [
         "Developed multi-agent learning frameworks for distributed perception and decision-making in spatially distributed robotic systems.",
         "Designed optimization-based consensus frameworks for globally consistent 3D direction-of-arrival estimation.",
         "Developed a fully decentralized homomorphic federated learning framework using CKKS encryption, eliminating centralized aggregation.",
@@ -97,7 +97,7 @@
       "location": "Fort Washington, PA, USA",
       "duration": "June 2025 - August 2025",
       "description": "Developed and analyzed a Model Predictive Controller design for Permanent Magnet Linear Synchronous Motors used in Ball Bonder machines.",
-      "highlights":[
+      "highlights": [
         "Developed and validated real-time control algorithms for industrial electromechanical systems.",
         "Conducted experimental validation under latency and stability constraints.",
         "Implemented hardware-in-the-loop (HIL) testing pipelines to verify controller performance under realistic operating conditions.",
@@ -109,7 +109,7 @@
       "organization": "Temple University College of Engineering",
       "location": "Philadelphia, PA, USA",
       "duration": "August 2021 - May 2022",
-      "highlights":[
+      "highlights": [
         "Conducted recitations, developed problem sets, and mentored graduate students in control theory and optimization.",
         "Assisted in courses: Control Systems, Circuits and Electronics, Digital Circuit Design, Engineering Analysis, and Engineering Programming."
       ]
@@ -120,14 +120,14 @@
       "location": "Kanpur Area, India",
       "duration": "July 2018 - July 2021",
       "description": "Focused on Mobile Robotics, Large-Scale Optimization, and SLAM.",
-      "highlights":[
+      "highlights": [
         "Implemented Gauss-Newton, Levenberg-Marquardt, EM, and EKF-based estimators.",
         "Developed scalable successive convex approximation methods for multi-agent estimation.",
         "Studied convergence and computational trade-offs in nonlinear optimization pipelines."
       ]
     }
   ],
-  "education":[
+  "education": [
     {
       "degree": "Ph.D. in Electrical and Computer Engineering",
       "institution": "Temple University, College of Engineering",
@@ -142,7 +142,7 @@
       "duration": "2014 - 2018"
     }
   ],
-  "publications":[
+  "publications": [
     {
       "title": "Optimization-based Control of Variable Speed Diesel Generators",
       "authors": "J. Amato, A. Bose and L. Bai",
@@ -205,7 +205,7 @@
       "year": 2019
     }
   ],
-  "professional_service":[
+  "professional_service": [
     "Reviewer: IEEE Transactions on Automatic Control",
     "Reviewer: IEEE Control Systems Letters"
   ]
