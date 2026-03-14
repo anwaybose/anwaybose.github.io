@@ -1,14 +1,36 @@
-body{
-font-family:Helvetica,Arial,sans-serif;
-margin:0;
-background:#f7f7f7;
+:root {
+  --primary-color: #2563eb;
+  --bg-color: #f8fafc;
+  --text-color: #1e293b;
+  --text-light: #64748b;
+  --card-bg: #ffffff;
+  --header-bg: #0f172a;
+  --border-color: #e2e8f0;
 }
 
-header{
-background:#111;
-color:white;
-padding:40px;
-text-align:center;
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+header {
+  background: var(--header-bg);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(135deg, rgba(37,99,235,0.2) 0%, rgba(15,23,42,0) 100%);
+  pointer-events: none;
 }
 
 .header-content {
@@ -16,9 +38,11 @@ text-align:center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   max-width: 900px;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
 @media (min-width: 600px) {
@@ -26,53 +50,167 @@ text-align:center;
     flex-direction: row;
     text-align: left;
   }
-  .header-text {
-    flex: 1;
-  }
 }
 
 #profile-photo {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #444;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  border: 4px solid var(--card-bg);
+  background-color: var(--card-bg); /* This white background makes the black SVG profile icon fully visible */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
 }
 
-.links a{
-margin-right:10px;
-color:white;
-text-decoration:none;
-}
-.links a:last-child {
-  margin-right:0;
+#profile-photo:hover {
+  transform: scale(1.05);
 }
 
-section{
-max-width:900px;
-margin:auto;
-padding:30px;
-background:white;
-margin-top:20px;
+h1 {
+  margin: 0 0 10px 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
 }
 
-h2{
-border-bottom:2px solid #eee;
-padding-bottom:5px;
+#headline {
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  margin: 0 0 20px 0;
+  font-weight: 400;
 }
 
-.pub{
-margin-bottom:20px;
+.links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.filters button{
-margin-right:10px;
-padding:5px 10px;
+@media (min-width: 600px) {
+  .links {
+    justify-content: flex-start;
+  }
 }
 
-footer{
-text-align:center;
-padding:20px;
-color:#777;
+.links a {
+  background: rgba(255,255,255,0.1);
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.links a:hover {
+  background: white;
+  color: var(--header-bg);
+  transform: translateY(-2px);
+}
+
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px;
+  background: var(--card-bg);
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+h2 {
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 10px;
+  margin-top: 0;
+  color: var(--header-bg);
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0 0 5px 0;
+  color: var(--header-bg);
+}
+
+b {
+  color: var(--primary-color);
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  color: var(--text-color);
+}
+
+#experience > div, #education > div {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+#experience > div:last-child, #education > div:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.publication {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: var(--bg-color);
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-color);
+  transition: transform 0.2s ease;
+}
+
+.publication:hover {
+  transform: translateX(5px);
+}
+
+.publication p {
+  margin: 5px 0;
+}
+
+.filters {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.filters button {
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.filters button:hover, .filters button:active {
+  background: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: var(--text-light);
+  margin-top: 40px;
+  border-top: 1px solid var(--border-color);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
