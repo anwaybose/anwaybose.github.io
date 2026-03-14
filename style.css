@@ -58,7 +58,7 @@ header::before {
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid var(--card-bg);
-  background-color: var(--card-bg); /* This white background makes the black SVG profile icon fully visible */
+  background-color: var(--card-bg);
   box-shadow: 0 10px 25px rgba(0,0,0,0.5);
   transition: transform 0.3s ease;
 }
