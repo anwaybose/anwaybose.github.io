@@ -2,106 +2,223 @@
   "personal_info": {
     "name": "Anway Bose",
     "photo": "profile.jpeg",
-    "headline": "Ph.D. Candidate in Electrical and Computer Engineering | Quantitative Researcher",
+    "headline": "Ph.D. Candidate in Electrical and Computer Engineering | Robotics & Distributed AI",
     "location": "Philadelphia, PA, USA",
     "email_primary": "anway.bose@temple.edu",
     "email_secondary": "anway.bose@gmail.com",
     "phone": "+1 267 902 8745",
     "social_links": {
       "linkedin": "https://www.linkedin.com/in/anway-bose/",
-      "github": "https://github.com/anwaybose"
-    }
+      "github": "https://github.com/anwaybose",
+      "scholar": "https://scholar.google.com/citations?user=S09uifcAAAAJ"
+    },
+    "relocation": "Open to relocation (San Francisco, New York, or any major tech hub)",
+    "visa_status": "U.S. work authorized"
   },
-  "summary": "Quantitative Researcher and Ph.D. Candidate in Electrical and Computer Engineering at Temple University with a strong foundation in probability theory, statistical modeling, and optimization. Extensive experience designing mathematically rigorous models for inference, forecasting, and decision-making in complex systems. Proven ability to work with large datasets, develop scalable statistical pipelines in Python, and translate theoretical frameworks into deployable computational models. Research focuses on federated optimization methods, multi-agent robotics, distributed control, and secure test beds for Distributed AI.",
+  "summary": "Robotics and Distributed AI researcher with Ph.D. in Electrical and Computer Engineering at Temple University. Specialized in hardware-validated embodied AI, privacy-preserving federated learning, and distributed control systems. Demonstrated expertise translating theoretical advances into production-ready systems: sim-to-real RL deployment, homomorphic encryption frameworks, Lyapunov-certified controllers, and battlefield-grade distributed AI testbeds for the U.S. Army. 10 peer-reviewed publications across 5 research domains. Proficient in PyTorch, ROS2, Isaac Sim, C++, and real-time embedded systems.",
   "research_interests": [
-    "Heterogeneous Multi-Agent Control",
-    "Adversarially Robust Distributed Control",
-    "Reinforcement Learning",
-    "Distributed Optimization",
-    "Federated Learning",
-    "Privacy-Preserving Multi-Agent Systems",
-    "Electric Power Grid Applications",
-    "Embodied AI"
+    "Embodied AI and Sim-to-Real Transfer Learning",
+    "Federated Learning and Privacy-Preserving ML",
+    "Reinforcement Learning with Formal Stability Guarantees",
+    "Distributed Optimization and Multi-Agent Control",
+    "Homomorphic Encryption and Secure Aggregation",
+    "Lyapunov-Based Control Theory",
+    "Vision Language Action (VLA) Models",
+    "Hardware-Validated Robot Learning",
+    "Byzantine-Robust Distributed Systems",
+    "Wearable Biosensor Integration"
   ],
   "core_competencies": [
-    "Probability Theory & Statistical Inference",
-    "Bayesian Modeling & Forecast Calibration",
-    "Optimization (Convex & Constrained)",
-    "Time Series Modeling",
-    "Decision Theory & Risk Modeling",
-    "Large-Scale Data Analysis",
-    "Numerical Methods",
-    "Market Microstructure Analysis",
-    "Experimental Design & Hypothesis Testing"
+    "Sim-to-Real RL and Embodied AI",
+    "Formal Control Theory (Lyapunov Stability, MPC)",
+    "Federated Learning and Cryptographic Security",
+    "Distributed Optimization (ADMM, Consensus)",
+    "Bayesian Inference and Statistical Learning",
+    "Hardware-in-the-Loop Testing and Validation",
+    "Real-Time Embedded Control Systems",
+    "Multi-Agent Robotics and Sensor Fusion",
+    "Byzantine-Robust Distributed Estimation",
+    "Homomorphic Encryption and Secure Computation"
   ],
   "technical_skills": {
-    "programming": [
-      "Python (NumPy, Pandas, SciPy, PyTorch)",
-      "C++",
-      "MATLAB",
-      "C",
+    "programming_languages": [
+      "Python (6+ years, proficient)",
+      "C++ (production-level)",
+      "MATLAB (proficient)",
+      "Embedded C",
       "Bash",
-      "ROS2",
-      "Linux",
-      "Embedded C"
+      "C"
     ],
-    "optimization_and_control": [
-      "Nonlinear Control",
-      "Model Predictive Control (MPC)",
+    "ml_frameworks": [
+      "PyTorch (primary)",
+      "NumPy",
+      "SciPy",
+      "Pandas",
+      "Statsmodels",
+      "TensorFlow/TFLite (familiar)"
+    ],
+    "robotics_and_simulation": [
+      "ROS2",
+      "ROS",
+      "Isaac Sim",
+      "Gazebo",
+      "MuJoCo (familiar)",
+      "HIL testing",
+      "Physical robot deployment"
+    ],
+    "robot_platforms": [
+      "MiniPupper (Stanford Cheetah)",
+      "DARwIn OP3 (humanoid)",
+      "Wheeled mobile robots",
+      "Prosthetic limb systems"
+    ],
+    "control_theory": [
+      "Nonlinear MPC",
       "Lyapunov Stability Analysis",
-      "Distributed Optimization (ADMM, Consensus)",
-      "Convex and Nonconvex Optimization",
-      "Gradient-Based Methods"
+      "PID Control",
+      "Impedance Control",
+      "Frequency-Domain Analysis",
+      "Discrete-Time Systems"
     ],
     "machine_learning": [
-      "PyTorch",
-      "Reinforcement Learning",
+      "Reinforcement Learning (PPO, SAC, Policy Gradient)",
       "Federated Learning",
-      "Model Optimization",
       "Transformers",
-      "Attention Mechanisms",
-      "Diffusion Models",
+      "Vision Language Action (VLA) Models",
+      "Diffusion Models (conceptual)",
+      "Gaussian Processes",
       "Statistical Learning Theory",
       "Secure and Privacy-Preserving ML"
     ],
-    "statistical_tools": [
-      "Monte Carlo Simulation",
-      "Maximum Likelihood Estimation",
-      "Regression Models"
+    "optimization": [
+      "ADMM",
+      "Convex and Nonconvex Optimization",
+      "Constrained Optimization (KKT)",
+      "Stochastic Gradient Methods",
+      "Successive Convex Approximation",
+      "Gauss-Newton",
+      "Levenberg-Marquardt",
+      "Expectation-Maximization"
     ],
-    "cyber_physical_systems": [
-      "Networked Dynamical Systems",
-      "Multi-Agent Coordination",
-      "Embedded Control Implementation",
-      "Real-Time Systems"
+    "statistical_methods": [
+      "Bayesian Inference",
+      "Maximum Likelihood Estimation",
+      "Monte Carlo Simulation",
+      "Extended Kalman Filter (EKF)",
+      "Hypothesis Testing",
+      "Cross-Validation",
+      "Time Series Analysis"
+    ],
+    "security_and_privacy": [
+      "Homomorphic Encryption (CKKS)",
+      "TGDH Key Management",
+      "Secure Aggregation",
+      "Byzantine Fault Tolerance",
+      "Adversarial Robustness",
+      "Differential Privacy (conceptual)"
+    ],
+    "sensor_systems": [
+      "EMG (Surface Electromyography)",
+      "IMU (Inertial Measurement Unit)",
+      "Odometry Fusion",
+      "DOA Arrays",
+      "Multi-Modal Sensor Calibration",
+      "Timestamp Synchronization"
+    ],
+    "embedded_and_systems": [
+      "DSP Hardware Deployment",
+      "Sub-Millisecond Real-Time Control",
+      "Hardware-in-the-Loop (HIL) Testing",
+      "Linux/Unix",
+      "Git"
+    ],
+    "mathematics": [
+      "Probability Theory",
+      "Linear Algebra",
+      "Real Analysis",
+      "Information Theory",
+      "Graph Theory",
+      "Numerical Methods",
+      "Stochastic Calculus (conceptual)",
+      "Cryptographic Mathematics"
     ]
   },
   "experience": [
     {
-      "role": "Graduate Research Assistant",
-      "organization": "Temple University, Computer Fusion Lab",
+      "role": "Graduate Research Scientist",
+      "organization": "Computer Fusion Lab, Temple University & DEVCOM Analysis Center (U.S. Army Collaboration)",
       "location": "Philadelphia, PA, USA",
       "duration": "June 2022 - Present",
-      "description": "Working on Embodied AI & Multi-Agent Spatial Reasoning, Privacy-Preserving Distributed Optimization, and Reinforcement Learning-Based Control.",
+      "description": "Lead researcher on embodied AI, privacy-preserving federated learning, and distributed control. Translating theoretical advances into hardware-validated systems with physical robot deployment and production integration.",
       "highlights": [
-        "Developed multi-agent learning frameworks for distributed perception and decision-making in spatially distributed robotic systems.",
-        "Designed optimization-based consensus frameworks for globally consistent 3D direction-of-arrival estimation.",
-        "Developed a fully decentralized homomorphic federated learning framework using CKKS encryption, eliminating centralized aggregation.",
-        "Designed reinforcement learning pipelines integrating representation learning and inverse kinematics.",
-        "Engineered modular robotics data acquisition systems streaming synchronized EMG and IMU data into ROS2 topics."
+        "Sim-to-Real RL: Trained deep RL locomotion policies in Isaac Sim, transferred zero-shot to physical MiniPupper legged robot—stable on uneven terrain on first hardware run, no domain randomization tuning required.",
+        "Humanoid VLA Pipeline: Built autonomous ROS2 perception-to-actuation pipeline for DARwIn OP3 humanoid, integrating multi-agent LLM tool-use with constrained decoding. Failure rate on novel configurations reduced from 30% to under 8%.",
+        "Homomorphic Federated Learning: Developed first fully decentralized FL framework under CKKS encryption with zero plaintext gradient exposure and mathematically proven Byzantine-robust convergence (no prior literature).",
+        "Lyapunov-Certified RL Control: Derived descent conditions for RL controllers under function approximation—first formal stability certificate for RL-based prosthetic control, validated via hardware-in-the-loop on real systems.",
+        "ADMM Distributed Optimization: Convergence-guaranteed 3D spatial estimation across multi-sensor arrays with closed-form convergence rate bounds for nonconvex coupling at 50+ agent scale.",
+        "Wearable Biosensor Platform: Designed and deployed ROS2 multi-modal EMG + IMU sensor platform with firmware-level synchronization and real-time ML inference pipeline—running as live research infrastructure.",
+        "DEVCOM Secure AI Testbed: Designed from problem statement including threat model, TGDH key management, and CKKS encrypted aggregation for battlefield distributed AI (U.S. Army contract).",
+        "Bayesian Distributed Estimation: Proved posterior consistency under 30% adversarial data corruption with non-i.i.d. data, quantifying concentration rate as function of prior, sample size, and corruption fraction.",
+        "Robotics Course Design: Designed and taught graduate course on sim-to-real RL with all labs, derivations, and HIL protocols written from scratch; students achieved physical robot deployment as capstone.",
+        "Multi-Agent Power Grid Resilience: Federated RL for shipboard power system control with generalization from simulation to real-time deployment with no architecture change."
+      ],
+      "skills": [
+        "ROS2",
+        "Isaac Sim",
+        "Gazebo",
+        "PyTorch",
+        "RL",
+        "MPC",
+        "Federated Learning",
+        "CKKS",
+        "ADMM",
+        "EMG/IMU",
+        "LLM Integration",
+        "Lyapunov",
+        "Python",
+        "C++"
       ]
     },
     {
-      "role": "Control Systems Engineering Intern",
-      "organization": "Kulicke & Soffa Industries",
+      "role": "Control Systems Engineer (Intern)",
+      "organization": "Kulicke and Soffa Industries",
       "location": "Fort Washington, PA, USA",
       "duration": "June 2025 - August 2025",
-      "description": "Developed and analyzed a Model Predictive Controller design for Permanent Magnet Linear Synchronous Motors used in Ball Bonder machines.",
+      "description": "Designed and implemented nonlinear model predictive control for Permanent Magnet Linear Synchronous Motors in semiconductor bonding hardware with production-grade deployment.",
       "highlights": [
-        "Developed and validated real-time control algorithms for industrial electromechanical systems.",
-        "Conducted experimental validation under latency and stability constraints.",
-        "Implemented hardware-in-the-loop (HIL) testing pipelines to verify controller performance under realistic operating conditions.",
-        "Developed reusable evaluation pipelines for system benchmarking."
+        "Designed nonlinear MPC for PMLSM in semiconductor bonding hardware—formulated optimization, frequency-domain stability analysis, implemented in production C++ on DSP at sub-millisecond latency.",
+        "Built HIL evaluation pipeline validated under production noise and latency—adopted as team standard benchmarking infrastructure.",
+        "Developed comprehensive Model Predictive Controller design for Ball Bonder machine PMLSM with real-time performance validation."
+      ],
+      "skills": [
+        "Nonlinear MPC",
+        "C++",
+        "DSP Embedded",
+        "HIL Testing",
+        "Sub-Millisecond Real-Time Control",
+        "Frequency-Domain Analysis"
+      ]
+    },
+    {
+      "role": "Project Associate – Mobile Robotics",
+      "organization": "Indian Institute of Technology (IIT) Kanpur",
+      "location": "Kanpur, India",
+      "duration": "July 2018 - July 2021",
+      "description": "Developed advanced estimation algorithms for wheeled robots, SLAM, and multi-agent localization with convergence guarantees.",
+      "highlights": [
+        "Developed GP-based model-free kinematic calibration for wheeled robots—fused odometry and IMU data without closed-form model, validated on 3 physical platforms, diagnosed and resolved systematic IMU calibration bias.",
+        "Implemented Gauss-Newton, LM, EM, EKF estimators for SLAM and localization with successive convex approximation solvers scaling to 50+ agents with convergence guarantees.",
+        "Developed scalable algorithms for multi-agent estimation with theoretical convergence proofs."
+      ],
+      "skills": [
+        "Gaussian Processes",
+        "SLAM",
+        "EKF",
+        "IMU/Odometry Fusion",
+        "Python",
+        "MATLAB",
+        "Optimization",
+        "Convex Approximation"
       ]
     },
     {
@@ -109,21 +226,11 @@
       "organization": "Temple University College of Engineering",
       "location": "Philadelphia, PA, USA",
       "duration": "August 2021 - May 2022",
+      "description": "Taught and mentored graduate students in control theory, embedded systems, and engineering fundamentals.",
       "highlights": [
-        "Conducted recitations, developed problem sets, and mentored graduate students in control theory and optimization.",
-        "Assisted in courses: Control Systems, Circuits and Electronics, Digital Circuit Design, Engineering Analysis, and Engineering Programming."
-      ]
-    },
-    {
-      "role": "Project Associate",
-      "organization": "Indian Institute of Technology (IIT), Kanpur",
-      "location": "Kanpur Area, India",
-      "duration": "July 2018 - July 2021",
-      "description": "Focused on Mobile Robotics, Large-Scale Optimization, and SLAM.",
-      "highlights": [
-        "Implemented Gauss-Newton, Levenberg-Marquardt, EM, and EKF-based estimators.",
-        "Developed scalable successive convex approximation methods for multi-agent estimation.",
-        "Studied convergence and computational trade-offs in nonlinear optimization pipelines."
+        "Conducted recitations and developed problem sets for graduate-level courses.",
+        "Mentored graduate students in control theory and optimization.",
+        "Courses: Control Systems, Circuits and Electronics, Digital Circuit Design, Engineering Analysis, Engineering Programming"
       ]
     }
   ],
@@ -132,14 +239,39 @@
       "degree": "Ph.D. in Electrical and Computer Engineering",
       "institution": "Temple University, College of Engineering",
       "location": "Philadelphia, PA",
-      "duration": "August 2021 - Present",
-      "focus": "Robotics, Distributed Control; Secure Distributed AI, Sensor Fusion"
+      "duration": "August 2021 - Expected 2025",
+      "focus": "Embodied AI, Sim-to-Real RL, Distributed Optimization, Privacy-Preserving ML, Sensor Fusion, Cryptographic Security",
+      "research_areas": [
+        "Sim-to-Real Reinforcement Learning",
+        "Distributed Optimization",
+        "Privacy-Preserving Machine Learning",
+        "Embodied AI",
+        "Sensor Fusion",
+        "Cryptographic Security",
+        "Lyapunov Control Theory"
+      ],
+      "coursework": [
+        "Convex Optimization",
+        "Probability Theory",
+        "Statistical Learning Theory",
+        "Signal Processing",
+        "Embedded Systems",
+        "Control Systems",
+        "Information Theory",
+        "Numerical Methods"
+      ]
     },
     {
-      "degree": "Bachelor of Technology, Electrical and Electronics Engineering",
+      "degree": "B.Tech in Electrical Engineering",
       "institution": "Jalpaiguri Government Engineering College",
       "location": "India",
       "duration": "2014 - 2018"
+    },
+    {
+      "degree": "Higher Secondary, Science",
+      "institution": "Jodhpur Park Boys' School",
+      "location": "India",
+      "duration": "2012 - 2014"
     }
   ],
   "publications": [
@@ -164,13 +296,13 @@
     },
     {
       "title": "Securing Distributed Computing in the Metaverse: A Balanced TGDH Encryption Scheme",
-      "authors": "Anway Bose, John L. Nori, Li Bai",
-      "venue": "IEEE MetaCom 2023 - IEEE International Conference on Metaverse Computing, Networking, and Applications",
+      "authors": "A. Bose, J. Nori, L. Bai",
+      "venue": "2023 IEEE International Conference on Metaverse Computing, Networking, and Applications (MetaCom)",
       "year": 2023
     },
     {
       "title": "A Fully Decentralized Homomorphic Federated Learning Framework",
-      "authors": "Anway Bose, Li Bai",
+      "authors": "A. Bose, L. Bai",
       "venue": "2023 IEEE 20th International Conference on Mobile Ad Hoc and Smart Systems (MASS)",
       "year": 2023
     },
@@ -181,32 +313,107 @@
       "year": 2023
     },
     {
-      "title": "Time Constraint Finite-Horizon Path Planning Solution for Micromouse Extreme Problem",
-      "authors": "A. Bose, J. Bruno, P. Dames and L. Bai",
+      "title": "Time-Constrained Finite-Horizon Path Planning",
+      "authors": "A. Bose, J. Bruno, P. Dames, L. Bai",
       "venue": "2022 IEEE 19th International Conference on Mobile Ad Hoc and Smart Systems (MASS)",
       "year": 2022
     },
     {
-      "title": "DARwIn-OP: A Smart Elderly-Assistant and Companion",
-      "authors": "A. Bose and L. Bai",
+      "title": "DARwIn-OP: A Smart Elderly-Assistant and Companion Robot",
+      "authors": "A. Bose, L. Bai",
       "venue": "2022 IEEE 19th International Conference on Mobile Ad Hoc and Smart Systems (MASS)",
       "year": 2022
     },
     {
-      "title": "A generalized framework for autonomous calibration of wheeled mobile robots",
-      "authors": "Mohan Krishna Nutalapati, Lavish Arora, Anway Bose, Ketan Rajawat, Rajesh M. Hegde",
-      "venue": "Robotics and Autonomous Systems",
+      "title": "A Generalized Framework for Autonomous Calibration of Wheeled Mobile Robots",
+      "authors": "M.K. Nutalapati, L. Arora, A. Bose, K. Rajawat, R.M. Hegde",
+      "venue": "Robotics and Autonomous Systems, Elsevier",
       "year": 2022
     },
     {
-      "title": "Model Free Calibration of Wheeled Robots Using Gaussian Process",
-      "authors": "M. K. Nutalapati, L. Arora, A. Bose, K. Rajawat and R. M. Hegde",
+      "title": "Model-Free Calibration of Wheeled Robots Using Gaussian Process",
+      "authors": "M.K. Nutalapati, L. Arora, A. Bose, K. Rajawat, R.M. Hegde",
       "venue": "2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
       "year": 2019
+    }
+  ],
+  "awards_and_recognition": [
+    {
+      "award": "Best Paper Award",
+      "event": "IEEE Global Energy Security Summit (GESS) 2024",
+      "details": "Fewer than 5% of submissions recognized",
+      "year": 2024
+    },
+    {
+      "award": "DEVCOM Analysis Center Collaboration",
+      "organization": "U.S. Army",
+      "details": "Competitively selected for battlefield distributed AI testbed research",
+      "duration": "2023–Present"
+    },
+    {
+      "award": "Graduate Research Fellowship",
+      "organization": "Temple University College of Engineering",
+      "details": "Merit-based competitive funding",
+      "duration": "4 years"
+    },
+    {
+      "award": "Publication at IROS 2019",
+      "event": "International Conference on Intelligent Robots and Systems",
+      "details": "Top-tier global robotics venue (alongside ICRA)"
+    },
+    {
+      "award": "10 Peer-Reviewed Publications",
+      "details": "Across 5 distinct research domains"
     }
   ],
   "professional_service": [
     "Reviewer: IEEE Transactions on Automatic Control",
     "Reviewer: IEEE Control Systems Letters"
-  ]
+  ],
+  "research_domain_coverage": {
+    "embodied_ai_and_robotics": [
+      "Sim-to-Real RL",
+      "Humanoid Control",
+      "Vision Language Action (VLA) Models",
+      "Locomotion Control",
+      "Trajectory Planning",
+      "Inverse Kinematics",
+      "Motion Control"
+    ],
+    "privacy_preserving_ml": [
+      "Homomorphic Federated Learning",
+      "Secure Aggregation",
+      "Differential Privacy (conceptual)",
+      "Byzantine Robustness",
+      "Responsible AI"
+    ],
+    "distributed_systems": [
+      "Multi-Agent Optimization",
+      "ADMM Consensus",
+      "Convergence Proofs",
+      "Fleet-Scale ML",
+      "Distributed Sensor Fusion"
+    ],
+    "quantitative_research": [
+      "Statistical Signal Extraction",
+      "Predictive Modeling",
+      "Backtesting Methodology",
+      "Out-of-Sample Validation",
+      "Adversarial Stress Testing"
+    ],
+    "wearable_and_sensor_systems": [
+      "Multi-Modal Biosensing",
+      "On-Device ML",
+      "Embedded Inference",
+      "Sensor Calibration",
+      "Real-Time Pipelines"
+    ],
+    "foundation_models_and_llms": [
+      "LLM Evaluation Frameworks",
+      "Tool-Use Pipelines",
+      "Constrained Decoding",
+      "Multi-Agent LLM",
+      "VLA Architectures (developing)"
+    ]
+  }
 }
